@@ -1,0 +1,45 @@
+body {
+  background-color: #aaa;
+}
+
+#board {
+  background-color: #333;
+  padding: 15px;
+  max-width: 300px;
+  margin: auto;
+  border-radius: 10px;
+  
+  #screen {
+    background-color: #bcb;
+    padding: 5px;
+    text-align: right;
+    font-family: Monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    
+    #curr-input {
+      font-size: 400%;
+    }
+    
+    #log {
+      font-size: 150%;
+    }
+  }
+  
+  #input {
+    width: 100%;
+    margin-top: 10px;
+    font-family: sans-serif;
+    table-layout: fixed;
+    
+    td {
+      text-align: center;
+      color: #eee;
+      padding: 10px;
+      background-color: #555;
+      &:active {
+        background-color: #777;
+      }
+    }
+  }
+}
